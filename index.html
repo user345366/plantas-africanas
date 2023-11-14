@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">MENU</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FITOTERAPIA</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PLANTAS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTATO</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">OUTROS <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+        <a href="#" class="w3-bar-item w3-button">Extras</a>
+        <a href="#" class="w3-bar-item w3-button">Media</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">FITOTERAPIA</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">PLANTAS</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTATOS</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/animation/2023/08/21/15/08/15-08-12-734_512.gif" style="width:50%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/animation/2023/08/21/15/08/15-08-12-734_512.gif" style="width:50%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small"> 
+    </div>
+  </div>
+  
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">FITOTERAPIA</h2>
+    <p class="w3-opacity"><i>O termo fitoterapia foi dado à terapêutica que utiliza os medicamentos cujos constituintes ativos são plantas ou derivados vegetais, e que tem a sua origem no conhecimento e no uso popular. As plantas utilizadas para esse fim são tradicionalmente denominadas medicinais (DE PASQUALE, 1984).</i></p>
+    <p class="w3-justify">A utilização da natureza para fins terapêuticos é tão antiga quanto a civilização humana e, por muito tempo, produtos minerais, de plantas e animais foram fundamentais para a área da saúde. Historicamente, as plantas medicinais são importantes como fitoterápicos e na descoberta de novos fármacos, estando no reino vegetal a maior contribuição de medicamentos. Por muito tempo, a medicina tradicional da África foi subestimada pela ciência ocidental. Hoje, séculos depois de descaso com as técnicas de cura africanas, pesquisadores do mundo todo começam a reconhecer a eficácia dos tratamentos desenvolvidos. Sobretudo com sistemas integrados de saúde, além de mais acessível e sustentável, a medicina tradicional tem-se provado ajudar no combate a doenças.</p>
+    
+  </div>
+
+  <!-- Plantas -->
+  <div class="w3-teal" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">Plantas</h2>
+      <p class="w3-opacity w3-center"><i>Plantas medicinais de origem africana ou cultivadas na África</i></p><br>
+
+      <!-- Linha de 3 plantas inicio -->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom w3-white">
+          <img src="https://media.dehner.de/new_ads_main/echte-aloe--aloe-vera/8670853_PR_FS_001_AloeVeraT12DehnerExpressHerzig.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container">
+            <p><b>Babosa</b></p>
+            <p class="w3-opacity"> Aloe vera</p>
+            <p>A babosa é conhecida por suas propriedades calmantes. Tem função Cicatrizante, antimicrobiana, emoliente (hidratante da pele),
+além de ser um hidratante popular para o cabelo e para cuidar da pele.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('babosa').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom " >
+          <img src="https://cdn.awsli.com.br/600x450/1348/1348550/produto/111620982/d327f5a0bd.jpg" alt="Alecrim" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Alecrim</b></p>
+            <p class="w3-opacity">Rosmarinus officinalis L.</p>
+            <p> Serve principalmente para consumo como chá ou para tempero no preparo de carnes, legumes, sopas e molhos. Pode ser aromatizante.
+              <h3>?</h3>
+              <h3>?</h3>
+</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('alecrim').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://natura24.pt/wp-content/uploads/2022/07/Borututu-50g-bioceutica.jpg" alt="Burututu" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Burututu</b></p>
+            <p class="w3-opacity">Cochlospermum angolense</p>
+            <p>Burututu é uma planta medicinal da família Bixaceae. Das suas raízes faz-se chá, que se diz ter características desintoxicantes.
+              <h3>?</h3>
+              <h3>?</h3>
+            </p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('burututu').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+      </div>  
+      <!-- Nova Linha de 3 plantas inicio -->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://www.orto.it/148/img/ruta_oit_15104.jpg" alt="Arruda" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Arruda</b></p>
+            <p class="w3-opacity">Ruta graveolens</p>
+            <p>Planta tradicionalmente conhecida por espantar as energias negativas, afastar o “mau-olhado”, que pode ser facilmente cultivada dentro de casa. A erva é rica em bioflavonoides com propriedades antioxidantes e anti-inflamatórias. Diz-se também que pode ser regulador do ciclo menstrual, efeitos que se devem à sua capacidade de causar fortes contrações uterinas.</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('arruda').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://static9.depositphotos.com/1644030/1129/i/600/depositphotos_11290728-stock-photo-fennel-flower-isolated-on-the.jpg" alt="Erva-Doce" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Erva-Doce</b></p>
+            <p class="w3-opacity">Pimpinella anisum L.</p>
+            <p>Protagonista de muitas receitas de avós, o chá de erva-doce é uma planta medicinal popularmente consumida como chá depois das refeições, para melhorar a digestão, possuindo também propriedades analgésicas e anti-inflamatórias. A parte utilizada para fazer a bebida são as sementes secas, as quais têm coloração amarelada, sabor adocicado e aroma intenso. 
+            <h3>?</h3>
+</p>
+
+
+
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('erva-doce').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://pamiesvitae.com/uploads/files/pages/xl2575-Carqueja.jpg" alt="Carqueja" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Carqueja</b></p>
+            <p class="w3-opacity">Baccharis trimera</p>
+            <p>Carqueja é uma erva espontânea em terrenos baldios e pastos, sendo muito utilizada como planta medicinal, na forma de chás ou infusões.Sua função principal é regular o funcionamento do fígado e intestinos. Auxilia nos regimes de emagrecimento, sendo usada no tratamento de má digestão.
+No Sul é comum acrescentar um pouco de carqueja na erva mate e como complemento do chimarrão.  
+
+</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('carqueja').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+      </div>
+      <!-- Nova Linha de 3 plantas inicio -->
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">  
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://st4.depositphotos.com/22328736/23912/i/450/depositphotos_239124714-stock-photo-annatto-tree-bixa-orellana-thailand.jpg" alt="Urucum" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Urucum</b></p>
+            <p class="w3-opacity">Bixa orellana L.</p>
+            <p>A semente de urucum seca e triturada é o tempero que conhecemos como colorau. Suave e adocicado, ressalta os sabores de carnes de todos os tipos ou sopas. Para fazer chá, as partes utilizadas do urucum são as folhas ou a semente.
+O tom vermelho vem da presença de compostos carotenoides na semente. Segundo estudo da Universidade do Estado do Rio de Janeiro, esses ativos são antioxidantes e protegem a pele dos danos causados pela radiação solar. 
+<h3>?</h3>
+<h3>?</h3>
+</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('urucum').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+        
+        <div class="w3-third w3-margin-bottom">
+          <img src="https://images.tcdn.com.br/img/img_prod/750533/erva_de_santa_maria_mentruz_50gr_183_1_6d72a18a74d82b40e89f1a3ded21e159.png" alt="Erva-de-santa-maria" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Erva-de-santa-maria</b></p>
+            <p class="w3-opacity">Dysphania ambrosioides</p>
+            <p> Muito utilizada como vermífugo, também utilizada na expulsão de parasitas intestinais de outros animais. A erva-de-santa-maria tem-se mostrado muito útil no tratamento de endoparasitoses tanto de humanos quanto de animais.</p>
+<p>ATENÇÃO: É importante o conhecimento e o domínio das possíveis de utilizações da erva-de-santa-maria no tratamento de enfermidades tanto de animais como de humanos.
+
+</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('erva-de-santa-maria').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+
+<div class="w3-third w3-margin-bottom">
+          <img src="https://cdn.awsli.com.br/600x700/305/305913/produto/10293681/maracuja-c4f478f6.jpg" alt="Maracujá" style="width:100%" class="w3-hover-opacity">
+          <div class="w3-container w3-white">
+            <p><b>Maracujá</b></p>
+            <p class="w3-opacity">Passiflora edulis</p>
+            <p> As folhas secas do maracujá são utilizadas na medicina popular e tradicional para o tratamento da ansiedade, ou da insônia.
+        O  fruto conta com uma substância chamada passiflorina, um calmante natural que dificilmente causa dependência, se fervidas junto com água, as folhas resultam em um chá que reduz a agitação e proporciona uma noite de sono mais tranquila.
+        <h3>?</h3>
+        <h3>?</h3>
+</p>
+            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('maracujá').style.display='block'">Detalhes</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Alecrim Modal -->
+  <div id="alecrim" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-green w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('alecrim').style.display='none'" 
+       class="w3-button w3-green w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Alecrim</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>	Tem atividade antibacteriana e antifúngica: eficaz contra Staphylococus aureus, Staphylococus albus, Escherichia coli, Vibrio colerae, Candida albicans. O carnasol e o ácido ursólico inibiram vários microorganismos (Staphylococus aureus, Escherichia coli, Lactobacillus brevis, Pseudomonas) em alimentos deteriorados. O ácido rosmarínico e a diosmina têm atividade antiiflamatória e antioxidante. Os óleos essenciais (principalmente o cineol) têm atividade espasmolítica e analgésica (FIGUEREDO, 2011). 
+
+As folhas são ainda usadas como aromatizante de alimentos e na forma de incenso, para a casa. 
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('alecrim').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div>
+  
+  <!-- Babosa Modal -->
+  <div id="babosa" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-green w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('babosa').style.display='none'" 
+       class="w3-button w3-green w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Babosa</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>  Contribui na cicatrização tecidual, prevenindo a progressiva isquemia dérmica, especialmente nas queimaduras. Mucilagem - potente atividade hidratante. Atividade antiviral frente aos tipos I e II do herpes simples, varicela zoster. Substância antibradicinina – aliviando a dor provocada pelas bradicininas quando a pele é agredida. Lactato de magnésio – ação anti-histamínica. Aminoácidos – atuam como antioxidantes e imunomoduladores, Ativa a microcirculação na cicatrização das feridas (FIGUEREDO, 2011). 
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('babosa').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div>
+
+  <!-- Burututu Modal -->
+  <div id="burututu" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-orange w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('burututu').style.display='none'" 
+       class="w3-button w3-orange w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Burututu</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>   É uma planta com propriedades medicinais utilizada popularmente entre os africanos para o alívio da malária. No entanto, são necessários mais estudos para comprovar a sua composição química e a sua atividade biológica 
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('burututu').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div> 
+
+  <!-- Arruda Modal -->
+  <div id="arruda" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-yellow w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('arruda').style.display='none'" 
+       class="w3-button w3-yellow w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Arruda</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>Entre os efeitos da arruda, os que mais se destacam são: atividade antiparasitária, espasmolítica e fotossensibilidade. Um estudo publicado pela revista Elsevier mostrou que o extrato de arruda apresenta efeitos antimicrobianos (ele provou ser eficaz contra as bactérias Staphylococcus aureus, Streptococcus pyogenes, Listeria monocytogenes e Bacillus subtilis). 
+        ______________________________________________________________________________________________
+        Curiosidade: No Equador se prepara uma maceração com ramos de arruda em álcool e aplica-se em regiões de dores reumáticas e sarna. Em Cuba, se prepara um macerado com conhaque para tomar antes das principais refeições como digestivo.
+        ______________________________________________________________________________________________
+        
+        Contraindicada na gravidez, podendo causar aborto!
+ 
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('arruda').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div>
+  
+  <!-- Erva-Doce Modal -->
+  <div id="erva-doce" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-green w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('erva-doce').style.display='none'" 
+       class="w3-button w3-green w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Erva-Doce</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i> A erva-doce, rica em óleo essencial, tem como uma de suas principais substâncias o anetol —composto que também está presente no funcho e no anis-estrelado, responsável pelo aroma e sabor característicos. A ação principal é do anetol que compete com a dopamina, um inibidor da prolactina, aumentando a produção de leite materno. Favorece a secreção salivar e a secreção gástrica (FIGUEREDO, 2011). 
+
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('erva-doce').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div> 
+
+  <!-- Carqueja Modal -->
+  <div id="carqueja" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-brown w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('carqueja').style.display='none'" 
+       class="w3-button w3-brown w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Carqueja</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>A carqueja é indicada como tônico estomáquico, antidiarreico e antirreumático. Sua função principal é regular o funcionamento do fígado e intestinos. Externamente, é usada no tratamento de feridas e ulcerações (FACHINETTP; TEDESCO, 2009).  
+
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('carqueja').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div>
+
+    <!-- Urucum Modal -->
+  <div id="urucum" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-red w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('urucum').style.display='none'" 
+       class="w3-button w3-red w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Urucum</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i> Tem ação antibacteriana, hipoglicemiante e antinflamatória para mucosa gástrica. As sementes concentram grande quantidade de substâncias precursoras da vitamina A, conferindo-lhe ação antioxidante (ALONSO, 2004).  
+
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('urucum').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div> 
+
+  <!-- Erva-de-santa-maria Modal -->
+  <div id="erva-de-santa-maria" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-brown w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('erva-de-santa-maria').style.display='none'" 
+       class="w3-button w3-brown w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Erva-de-santa-maria</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i> A erva-de-santa-maria tem como propriedade uma ação antihelmíntica, (CAMARGO, 1985; SPETHMANN, 2004) e (ITF, 2008), principalmente para os parasitos do intestino delgado.  
+
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('erva-de-santa-maria').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div> 
+
+  <!-- Marácuja Modal -->
+  <div id="maracujá" class="w3-modal">
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+      <header class="w3-container w3-yellow w3-center w3-padding-32"> 
+        <span onclick="document.getElementById('maracujá').style.display='none'" 
+       class="w3-button w3-yellow w3-xlarge w3-display-topright">×</span>
+        <h2 class="w3-wide"><i class="fa w3-margin-right"></i>Maracujá</h2>
+      </header>
+      <div class="w3-container">
+        <p><label><i class="fa "></i>   A passiflorina atua no sistema nervoso central como um tranquilizante e relaxante muscular, junto com o magnésio, mineral que auxilia no combate ao estresse e ansiedade. Não à toa, o maracujá é utilizado como insumo principal de vários medicamentos fitoterápicos.
+As folhas do maracujazeiro ainda contêm alcaloides e flavonoides, substâncias que podem ajudar no combate à insônia. Estudos com camundongos mostraram que o maracujá reduz a atividade espontânea de
+locomoção e prolonga a duração do sono. Em humanos, estudos mostraram efeito
+sedativo e hipnótico. Este efeito deve-se, principalmente à passiflorina e à crisina
+(FIGUEREDO, 2011). 
+
+
+</label></p>
+        
+        <button class="w3-button w3-red w3-section" onclick="document.getElementById('maracujá').style.display='none'">Fechar <i class="fa fa-remove"></i></button>
+       
+      </div>
+    </div>
+  </div> 
+
+  <!-- The Contact Section -->
+ <div class="w3-display-container w3-center">
+    <img src="https://cdn.pixabay.com/animation/2022/10/13/17/11/17-11-39-799_512.gif" style="width:30%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    </div>
+  </div>
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTATO</h2>
+    <p class="w3-opacity w3-center"><i>Dúvidas? Me envie uma mensagem!</i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Chapecó, BR<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: mail@mail.com<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="/action_page.php" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Nome" required name="Nome">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Mensagem" required name="Mensagem">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">ENVIAR</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+ 
+  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
